@@ -1,0 +1,28 @@
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  display: flex;
+}
+
+.title-section {
+  display: flex;
+}
+
+.info-section {
+  display: flex;
+}
+
+.quote-section {
+  display: flex;
+}
+
+.sign-up-section {
+  display: flex;
+}
+
+footer {
+  display: flex;
+}
