@@ -25,6 +25,48 @@ header > ul {
 
 .title-section {
   display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  padding: 128px 128px;
+  background-color: #1F2937;
+  color: #F9FAF8;
+}
+
+.title-section .left-side {
+  max-width: 450px;
+  font-size: 24px;
+  display: flex;
+  flex-direction: column;
+}
+
+.title-section h1 {
+  margin: 0;
+}
+
+.title-section p {
+  color: #E5E7EB;
+  font-size: 16px;
+}
+
+.title-section button {
+  background-color: #3882F6;
+  color: #F9FAF8;
+  font-weight: bold;
+  font-size: 16px;
+  border-radius: 8px;
+  border-width: 0;
+  width: 128px;
+  height: 40px;
+}
+
+.title-section .right-side {
+  width: 400px;
+  height: 200px;
+  background-color: grey;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .info-section {
