@@ -104,7 +104,7 @@ header > ul {
 .quote-section {
   display: flex;
   flex-direction: column;
-  align-items: flex-end;
+  align-items: center;
   background-color: #E5E7EB;
   color: #1F2937;
   padding: 64px 256px;
@@ -115,10 +115,13 @@ header > ul {
   font-family: "light italic", "Courier New", serif;
   font-style: italic;
   margin: 0;
+  max-width: 1000px;
 }
 
-.quote-section span {
+.quote-section div {
   font-weight: bold;
+  text-align: right;
+  font-family: extra-bold, sans-serif;
 }
 
 .sign-up-section {
