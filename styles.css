@@ -123,6 +123,44 @@ header > ul {
 
 .sign-up-section {
   display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 80px 256px;
+}
+
+.sign-up-card {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #3882F6;
+  color: #F9FAF8;
+  border-style: none;
+  border-radius: 8px;
+  padding: 16px 64px;
+  width: 900px;
+  height: 94px;
+}
+
+.sign-up-text h4 {
+  font-weight: bold;
+  font-size: 22px;
+  margin: 2px;
+}
+
+.sign-up-text p{
+  color: #E5E7EB;
+  margin: 2px;
+}
+
+.sign-up-card button {
+  border-style: solid;
+  border-color: white;
+  border-radius: 8px;
+  background-color: #3882F6;
+  color: #F9FAF8;
+  font-weight: bold;
+  font-size: 16px;
+  padding: 8px 32px;
 }
 
 footer {
