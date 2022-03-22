@@ -103,6 +103,22 @@ header > ul {
 
 .quote-section {
   display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  background-color: #E5E7EB;
+  color: #1F2937;
+  padding: 64px 256px;
+}
+
+.quote-section blockquote {
+  font-size: 24px;
+  font-family: "light italic", "Courier New", serif;
+  font-style: italic;
+  margin: 0;
+}
+
+.quote-section span {
+  font-weight: bold;
 }
 
 .sign-up-section {
